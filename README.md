@@ -1,0 +1,2 @@
+# camera=-encontre-a-bandeira
+
