@@ -25,18 +25,20 @@ size = Vector2(20, 22)
 script = ExtResource("1_d8idc")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2065861937]
-position = Vector2(0.99999905, 0)
+position = Vector2(5.9604645e-08, 0)
 scale = Vector2(1.9999999, 1.9999998)
 sprite_frames = SubResource("SpriteFrames_sskd1")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1076980148]
-position = Vector2(-1, 0)
+position = Vector2(-2, 0)
 shape = SubResource("RectangleShape2D_d8idc")
 
 [node name="Label" type="Label" parent="." unique_id=2093152981]
 visible = false
-offset_right = 40.0
-offset_bottom = 23.0
+offset_left = -54.0
+offset_top = -31.0
+offset_right = 45.0
+offset_bottom = -8.0
 text = "Parabens!!!!!!"
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
